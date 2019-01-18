@@ -1,0 +1,39 @@
+1. Houston House Price Index 
+    - U.S. Federal Housing Finance Agency,House Price Index for Houston The Woodlands-Sugar Land 
+    - Units:  Index 1995:Q1=100, Not Seasonally Adjusted
+
+2. Houston Consumer Price Index
+    -  Consumer Price Index for All Urban Consumers: All items in Houston-The Woodlands-Sugar Land, TX (CBSA)
+    -  Index 1982-1984=100, Not Seasonally Adjusted
+    
+3. Construction Materials Index
+    - Producer Price Index by Commodity for Special Indexes: Construction Materials 
+    - Index 1982=100, Not Seasonally Adjusted
+    
+4. WTI Oil Price
+    - Crude Oil Prices: West Texas Intermediate (WTI) - Cushing, Oklahoma [DCOILWTICO]
+    - Dollars per Barrel, Not Seasonally Adjusted
+    
+5. Unemployment Rate
+    - Unemployment Rate in Houston-The Woodlands-Sugar Land, TX (MSA) [HOUS448UR]
+    - Units:  Percent, Smoothed Seasonally Adjusted
+    
+6. Interest Rate
+    - 30-Year Fixed Rate Mortgage Average in the United States [MORTGAGE30US]
+    - Units:  Percent, Not Seasonally Adjusted
+    
+7. Population 
+    - 'TXHARR1POP':'Harris Cty Population'
+    - 'TXFORT5POP':'Fort Bend Cty Population'
+    -'TXMONT0POP':'Montgomery Cty Population '
+    - 'TXGALV7POP':'Galveston Cty Population'
+    - 'TXBRAZ0POP':'Brazoria Cty Population'
+    - 'TXLIBE1POP':'Liberty Cty Population'
+    - 'TXWALL3POP':'Waller Cty Population'
+    - 'TXCHAM1POP':'Chambers Cty Population '
+    - 'TXAUST5POP':'Austin Cty Population'
+    - Units:  Thousands of Persons, Not Seasonally Adjusted
+    
+8. Income 
+    - Estimate of Median Household Income
+    - Units:  Dollars, Not Seasonally Adjusted
