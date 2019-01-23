@@ -14,11 +14,14 @@
 
 #### Analysis
 - We first investigated the relationship in oil price and HPI trends.  The Figure below shows 2 charts. The first one compares the HPI with the WTI Oil Price and the 2nd chart illustrates the downturn in the workforce employed in the Oil and Gas Sector. 
-![image](https://user-images.githubusercontent.com/42792976/51587816-acdc4800-1ea7-11e9-97b1-8b383e25e67b.png)
+
+![image](https://user-images.githubusercontent.com/42792976/51590019-3ee74f00-1eae-11e9-926a-ea9c29a6a541.png)
 - We expected to see a positive relationship between the HPI and Oil Price – especially given the 40,00 reduction in the labour force for this highly paid industry.  On carrying out a regression analysis, it was found that only 3% of the variation in the dependent variable (HPI) can be explained by variations in the independent variable, i.e. the oil price.  See results below:
-![image](https://user-images.githubusercontent.com/42792976/51587869-d5644200-1ea7-11e9-9c9c-ddf40053e813.png)
+![image](https://user-images.githubusercontent.com/42792976/51590060-5c1c1d80-1eae-11e9-82ff-5897d066a18a.png)
+
 - On closer inspection of the workforce in Houston, it was found that oil and gas workers make up only 13% of the largest industry in Houston with respect to workforce numbers.
-![image](https://user-images.githubusercontent.com/42792976/51587897-e8771200-1ea7-11e9-80c0-16ba886777d3.png)
+![image](https://user-images.githubusercontent.com/42792976/51590094-6b9b6680-1eae-11e9-8b98-1886815cca5d.png)
+
 - We then consider other factors such as: Population, Mortgage & Interest Rates, Consumer Price Index (CPI), Building Permits, Unemployment, Construction Cost Index for our linear regression model. The result for all these factors is shown below (note that all these variables are log-transformed as mention above)
 ![image](https://user-images.githubusercontent.com/42792976/51588007-4b68a900-1ea8-11e9-8774-0b7827d4fc07.png)
 - According to p-value, several additional linear regressions were performed. The final result is shown below
