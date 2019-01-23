@@ -1,16 +1,16 @@
 # Houston Housing Index Analysis - Oil Price and Other Key Factors 
 
 ## Background
--  Houston is recognized worldwide for its energy industry—particularly for oil and natural gas. Therefore, oil price fluctuation can affect many aspects of Houston in general.
-- The basis for our project was the underlying belief that House Price Index (HPI) was driven by oil price since energy sector plays an important role in Houston local economy as mentioned above. 
-- Out main project objective is to prove whether the belief above is correct. If not, we want to identify the driving force Housing Price Index. 
+-  Houston is recognized worldwide for its energy industry—particularly for oil and natural gas. Therefore, oil price fluctuations can affect many aspects of Houston in general.
+- The basis for our project was the underlying belief that the House Price Index (HPI) was driven predominantly by the oil price, since the energy sector plays an important role in Houston's local economy as mentioned above. 
+- Our main project objective is to prove whether the belief above is correct. If not, we want to identify the driving force behind Houston's Housing Price Index. 
 
 ## Process
 #### Data Souce
 - All data are collected from FREd Economics St. Louis by performing API call
 - All data is located under data folder.
-- Note: most data are anual annual without season corrected. 
-- Since these are time series data, for regression analysis, all data are transformed to avoid non-stationary effect by using the log of 1st difference. Please refer to cleaning.ipynb for more details 
+- Note: most data are annual without seasonal corrections. 
+- All data is in time series format, therefore, for regression analysis, all data is transformed to avoid the non-stationary effect by using the log of 1st difference. Please refer to cleaning.ipynb for more details 
 
 #### Analysis
 - We first investigated the relationship in oil price and HPI trends.  The Figure below shows 2 charts. The first one compares the HPI with the WTI Oil Price and the 2nd chart illustrates the downturn in the workforce employed in the Oil and Gas Sector. 
@@ -29,10 +29,10 @@
 
 
 #### Conclusion/Discussion
-- We dont see much correlation between oil price and Houston House Price Index. 
-- The two main factors that drive Housing Index according to our findings are: Population and the rising of construcion cost. The final regression equation is : HPI = -0.06 – (0.40*CMI) + (4.90*H_pop) where HPI = House Price Index, CMI = Construction Material Index, H_pop = Houston Population (thousands). The R-squared value is .501 which means the trend of HPI can be exlpained about 50% by these two factors. 
+- We do not see much correlation between oil price and Houston House Price Index. 
+- According to our findings, the two main factors driving the Houston HPI are: Population and the rising cost of construcion. The final regression equation derived is : HPI = -0.06 – (0.40*CMI) + (4.90*H_pop) where HPI = House Price Index, CMI = Construction Material Index, H_pop = Houston Population (thousands). The R-squared value is .501 which means the trend of HPI can be exlpained about 50% by these two factors. 
 - The final linear regression line implies that when population raises by 1%, the HPI will go up by 4.9%. 
 
 #### Limitation and future work 
-- Our dataset sample size is small dues to the fact that population is can only measure annualy 
-- The effect of oil price can be under-estimated. Future works can be done to find correlation between oil price and other independent factors.
+- Our dataset sample size is small due to the population data that is recorded annually. 
+- The effect of oil price can be under-estimated. Future work can be done to find the correlation between oil price and other independent factors.
